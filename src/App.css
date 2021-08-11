@@ -1,16 +1,14 @@
-
-table{
+table {
   margin: auto;
   text-align: center;
 }
 
-input{
+input {
   outline: 0;
   position: relative;
   left: 5px;
   top: 5px;
-  border: 0;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   width: 100px;
   height: 80px;
   float: left;
@@ -20,17 +18,16 @@ input{
   cursor: pointer;
 }
 
-.zero{
+.zero {
   width: 200px;
 }
 
-.orange{
-  background-color: #F5913E;
+.orange {
+  background-color: #f5913e;
   position: relative;
 }
 
-
-#clear{
+#clear {
   float: left;
   position: relative;
   display: block;
@@ -38,12 +35,11 @@ input{
   margin-bottom: 15px;
 }
 
-.display{
-  width: 394px!important;
+.display {
+  width: 394px !important;
   font-size: 26px;
   text-align: right;
   background-color: #858693;
   float: left;
   color: white;
 }
-
