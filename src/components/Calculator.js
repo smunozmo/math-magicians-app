@@ -1,5 +1,4 @@
 import React from 'react';
-// import operate from './operate';
 import calculate from './calculate';
 
 class Calculator extends React.Component {
