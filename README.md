@@ -21,27 +21,17 @@
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:smunozmo/to_do_list_with_webpack.git
+   git clone git@github.com:smunozmo/math-magicians-app.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
+2. Run the app
+   ```sh
+   npm start
+   ```
 
-### Testing
-
-1. Run the tests
-   ```sh
-   npm test
-   ```
-   or
-   ```sh
-   npm run watch
-   ```
-2. See report in browser 
-   ```sh
-   open ./coverage/lcov-report/index.html
-   ```
 👤 **Author**
 
 Sebastián Muñoz
@@ -54,7 +44,7 @@ Sebastián Muñoz
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/smunozmo/react_calculator_app/issues).
+Feel free to check the [issues page](https://github.com/smunozmo/math-magicians-app/issues).
 
 
 ## 👋 Acknowledgements
