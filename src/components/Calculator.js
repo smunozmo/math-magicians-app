@@ -7,6 +7,9 @@ export default function Calculator() {
   const UpdateObj = (event) => {
     const currentObj = calculate(calcObj, event.target.value);
     const displayTotal = document.querySelector('form');
+    if (currentObj.total === null) {
+      currentObj.total = '0';
+    }
     if (currentObj.next !== null) {
       displayTotal.innerText = currentObj.next;
     } else {
@@ -33,7 +36,7 @@ export default function Calculator() {
           <form type="text" value="0" className="display">0</form>
           <br />
           <button type="button" value="AC" onClick={UpdateObj}>AC</button>
-          <button type="button" value="+" onClick={UpdateObj}>+/-</button>
+          <button type="button" value="+/-" onClick={UpdateObj}>+/-</button>
           <button type="button" value="%" onClick={UpdateObj}>%</button>
           <button type="button" value="÷" className="orange" onClick={UpdateObj}>÷</button>
           <br />
