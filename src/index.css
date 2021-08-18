@@ -1,6 +1,14 @@
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
+
+body {
+  background: rgb(255, 138, 0);
+  background: linear-gradient(360deg, #acacac 0%, rgba(255, 255, 255, 1) 33%);
+  background-position: bottom;
+  min-height: 60vw;
+}
+
 table {
   margin: auto;
   text-align: center;
@@ -52,51 +60,52 @@ button {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 li {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    cursor: pointer;
-  }
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 #logo {
-    float: left;
-    font-size: 32px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .calcContainer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
 .calcTitle {
-    font-size: 32px;
-    margin: 200px 0 0 40px;
+  font-size: 32px;
+  margin: 200px 0 0 40px;
 }
 
 .quote {
-    text-align: center;
-    font-size: 24px;
-    margin: 250px;
+  text-align: center;
+  font-size: 24px;
+  margin: 250px;
 }
 
 .home {
-    font-size: 18px;
-    margin: 100px 50px;
+  font-size: 18px;
+  margin: 100px 50px;
 }
 
 .links {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
