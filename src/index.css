@@ -84,3 +84,14 @@ li {
     font-size: 32px;
     margin: 200px 0 0 40px;
 }
+
+.quote {
+    text-align: center;
+    font-size: 24px;
+    margin: 250px;
+}
+
+.home {
+    font-size: 18px;
+    margin: 100px 50px;
+}
