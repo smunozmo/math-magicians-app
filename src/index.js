@@ -9,8 +9,8 @@ import Calculator from './components/Calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
     <BrowserRouter>
+      <Navbar />
       <Route exact path="/">
         <Home />
       </Route>

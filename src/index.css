@@ -95,3 +95,8 @@ li {
     font-size: 18px;
     margin: 100px 50px;
 }
+
+.links {
+    text-decoration: none;
+    color: black;
+  }
